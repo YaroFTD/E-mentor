@@ -586,6 +586,7 @@ body._lock {
 @media (max-width: 61.99875em) {
   .header--dark .menu__link {
     font-size: 1.5rem;
+    color: #353A5A;
   }
 }
 .header--dark .icon-menu {
@@ -657,6 +658,20 @@ body._lock {
 }
 .header._fixed .icon-menu._active span {
   background-color: #FDFDFD;
+}
+.header._fixed.header--dark .menu__link {
+  color: #353A5A;
+}
+@media (max-width: 47.99875em) {
+  .header._fixed.header--dark .menu__link {
+    color: #353A5A;
+  }
+}
+.header._fixed.header--dark .icon-menu span {
+  background-color: #353A5A;
+}
+.header._fixed.header--dark .icon-menu._active span {
+  background-color: #353A5A;
 }
 .header__container {
   display: -webkit-box;
