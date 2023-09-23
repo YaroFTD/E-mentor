@@ -647,6 +647,17 @@ body._lock {
 .header._fixed .menu__link {
   color: #353A5A;
 }
+@media (max-width: 47.99875em) {
+  .header._fixed .menu__link {
+    color: #FDFDFD;
+  }
+}
+.header._fixed .icon-menu span {
+  background-color: #353A5A;
+}
+.header._fixed .icon-menu._active span {
+  background-color: #FDFDFD;
+}
 .header__container {
   display: -webkit-box;
   display: -ms-flexbox;
